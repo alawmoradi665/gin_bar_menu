@@ -1,10 +1,13 @@
 # Gin Bar Menu:
+
 # Gin Lane Martini $19
 #   -London Dry Gin, Lavender Bitters, Grapefruit Bitters & Tonic
 # Italian Flip $17
 #   -Gin, Campari, Antica Formula, Shaken Well and Ice Block
 # Lightbulb Moment $21
 #   -Tanqueray London Dry Gin, Fresh Mint, Lemon and Peach, Blue Curacao, Rose Essence, Charged with Procecco
+# South Side $19
+#   -Gin, Fresh Pressed Lemon Juice, Fresh Pressed Mint
 
 # user story:
 # -user should be able to view the menu
