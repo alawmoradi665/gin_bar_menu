@@ -24,4 +24,6 @@
 #     2. ask "add to order? yes/no"
 #     3. if user input is yes, add to order and go back to menu 
 #     4. if input is no, go back to menu and continue until exit 
-# 3. if input is exit, display exit message and final bill and exit app 
+# 3. if input is exit, display exit message and final bill and exit app  
+
+Lägg till method här, resten i gin bar menu rb filen
