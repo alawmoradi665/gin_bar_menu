@@ -1,4 +1,4 @@
-## R5. DESIGN A SOFTWARE DEVELOPMENT 
+### R5. Design a software development plan
 Terminal application - Gin Bar Menu
 
 The purpose of this application is to allow for customers to choose their drink through an application rather than needing waiters. The application will have a set of features that will take the user from the welcome message to the final bill. 
