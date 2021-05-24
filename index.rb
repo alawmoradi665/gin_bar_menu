@@ -26,4 +26,14 @@
 #     4. if input is no, go back to menu and continue until exit 
 # 3. if input is exit, display exit message and final bill and exit app  
 
+
+
 # Lägg till method här, resten i gin bar menu rb filen
+
+
+require_relative "gin_bar_menu.rb"
+
+@guest = GuestOrder.new 
+
+
+
