@@ -1,4 +1,5 @@
-# skriv hela object och class coden här 
+# class and objects
+
 
 class GuestOrder
     attr_reader :bill, :name
@@ -9,7 +10,7 @@ class GuestOrder
     end
 
     def welcome_msg
-        puts "Welcome to Alaw's Gin! Choose a drink by entering the item number or enter exit to receive your final bill :)"
+        puts "Hey there! Welcome to Alaw's Gin! Find our menu below and choose one of our sensational drinks by entering the drink number. When you've finished, just type exit to receive your final bill :)"
     end
 
     def menu
@@ -43,3 +44,6 @@ class GuestOrder
 end
 
 #ISSUE - IF YOU ENTER EXIT WHILST ON GET_QUANTITY IT GOES BACK TO THE MENU
+
+# REFLECTING - I changed my initial idea to have drink names with the price and "choose drink to see ingredients" beacuse i don't know how to do so whilst making the program adding the price of all drinks in the end. Went the easier way.
+# - added instructions on how to exit in the get_quantity section too because the welcome msg only appears once, being realisting people at a bar will be on this menu for a while and by the time they want their final bill, they might not remember what the welcome msg said. so this keeps them informed the whole time. 

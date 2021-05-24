@@ -18,7 +18,7 @@
 # -user should be albe to recieve the final bill with an accurat total amount
 
 # pseudocode
-# 1. display menu and welcome message with directions (choose a drink to see ingredients)
+# 1. display menu and welcome message with directions (choose a drink or enter exit)
 # 2. get user input
 #     1. if user input a number, display ingredients of the chosen number/drink
 #     2. ask "add to order? yes/no"
@@ -54,7 +54,7 @@ while ordering
         guest.place_order(guest_input)
     when 0
         ordering = false 
-        puts "Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}"
+        puts "Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}. See ya next time!"
     else 
         puts "Invalid choice. Type 1, 2, 3, 4 or exit"
     end 
