@@ -17,8 +17,8 @@ class GuestOrder
 #update the menu list (containing item number and price) 
         @drink_list = {1 => 19, 2 => 17, 3 => 21, 4 => 19}
 
-        drink_menu.each do |drink, price|
-            puts "#{drink} ----- #{price}"
+        @drink_menu.each do |drink, price|
+            puts "#{drink} $#{price}"
         end 
 
     end
@@ -29,7 +29,7 @@ class GuestOrder
 #get users choice of quantity, make input to be an integer
     def get_quantity
         puts "How many would you like to add to your order?"
-        quantity = gets.chomp.to_i
+        @quantity = gets.chomp.to_i
     end 
 #calculate the total bill when user enters exit
     def calculate_final_bill
