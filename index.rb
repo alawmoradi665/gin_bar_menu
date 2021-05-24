@@ -17,18 +17,9 @@
 # -user should be able to exit the app whenever
 # -user should be albe to recieve the final bill with an accurat total amount
 
-# pseudocode
-# 1. display menu and welcome message with directions (choose a drink or enter exit)
-# 2. get user input
-#     1. if user input a number, display ingredients of the chosen number/drink
-#     2. ask "add to order? yes/no"
-#     3. if user input is yes, add to order and go back to menu 
-#     4. if input is no, go back to menu and continue until exit 
-# 3. if input is exit, display exit message and final bill and exit app  
 
 
-
-# Lägg till method här, resten i gin bar menu rb filen
+# method and loop 
 
 
 require_relative "gin_bar_menu.rb"
@@ -38,8 +29,6 @@ guest = GuestOrder.new("")
 
 # call the welcome_msg and menu methods
 guest.welcome_msg
-
-# guest.menu 
 
 # create a flag for the loop to tell the program what to do when flag is true or false
 ordering = true

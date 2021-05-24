@@ -1,5 +1,13 @@
 # class and objects
 
+# pseudocode
+# 1. display menu and welcome message with directions (choose a drink or enter exit)
+# 2. get user input
+#     1. when user input a number 1,2,3,4 , display quantity question together with instructions
+#     3. if user input is wrong, use else statement to say "invalid entry" etc and go back to menu 
+# 3. when input is exit, display exit message and final bill  
+
+#create a class for guest ordering
 
 class GuestOrder
     attr_reader :bill, :name
@@ -21,21 +29,24 @@ class GuestOrder
         @drink_menu.each do |drink, price|
             puts "#{drink} $#{price}"
         end 
-
     end
+
 #show drink price based on the user choice 
     def get_drink_price(user_input)
         @drink_price = @drink_list[user_input] 
     end
+
 #get users choice of quantity, make input to be an integer
     def get_quantity
         puts "How many would you like to add to the order? Type your amount to return to the menu for more drinks! Enter exit at any time to receive your final bill."
         @quantity = gets.chomp.to_i
     end 
+
 #calculate the total bill when user enters exit
     def calculate_final_bill
         @bill += @drink_price * @quantity
     end 
+    
     def place_order(user_input)
         get_drink_price(user_input)
         get_quantity
