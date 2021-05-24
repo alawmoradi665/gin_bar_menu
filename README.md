@@ -14,6 +14,8 @@ This app will be a solution to the problems with waitressing since Covid-19, min
 
 ## R6. DEVELOP A LIST OF FEATURES THAT WILL BE INCLUDED IN THE APPLICATION
 
+
+
 ## R7. DEVELOP AN OUTLINE OF THE USER INTERACTION AND EXPERIENCE FOR THE APPLICATION
 
 The user will find out how to interact with the application when entering. It will display a welcome message together with instructions on how to see the ingredients of each drink and how to exit the application and receive the final bill.
@@ -32,4 +34,12 @@ See implementation-plan-progress folder for screenshots of my plan and progress.
 
 ## R10. DESIGN HELP DOCUMENTATION WHICH INCLUDES A SET OF INSTRUCTIONS WHICH ACCURATELY DESCRIBE HOW TO INSTALL AND USE THE APPLICATION
 
+
+### Reference sources
+
+For Rainbow Gem
+https://github.com/sickill/rainbow
+
+For Terminal Table Gem
+https://github.com/tj/terminal-table
 
