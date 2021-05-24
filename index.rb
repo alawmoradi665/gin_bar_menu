@@ -27,7 +27,7 @@ require_relative "gin_bar_menu.rb"
 # this is an instance of the GuestOrder class
 guest = GuestOrder.new("") 
 
-# call the welcome_msg and menu methods
+# call the welcome_msg and menu method
 guest.welcome_msg
 
 # create a flag for the loop to tell the program what to do when flag is true or false

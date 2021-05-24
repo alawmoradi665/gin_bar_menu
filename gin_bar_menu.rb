@@ -38,7 +38,7 @@ class GuestOrder
 
 #get users choice of quantity, make input to be an integer
     def get_quantity
-        puts "How many would you like to add to the order? Type your amount to return to the menu for more drinks! Enter exit at any time to receive your final bill."
+        puts "How many would you like to add to the order? Type your amount to add and return to the menu for more drinks! Enter exit at any time to receive your final bill."
         @quantity = gets.chomp.to_i
     end 
 
@@ -46,7 +46,8 @@ class GuestOrder
     def calculate_final_bill
         @bill += @drink_price * @quantity
     end 
-    
+
+#define objects 
     def place_order(user_input)
         get_drink_price(user_input)
         get_quantity
