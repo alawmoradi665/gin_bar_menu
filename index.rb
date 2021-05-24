@@ -56,7 +56,7 @@ while ordering
         ordering = false 
         puts "Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}"
     else 
-        puts "Invalid choice. Type 1, 2, 3, 4 or exit"\
+        puts "Invalid choice. Type 1, 2, 3, 4 or exit"
     end 
 end 
 

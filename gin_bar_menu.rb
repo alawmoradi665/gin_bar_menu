@@ -9,7 +9,7 @@ class GuestOrder
     end
 
     def welcome_msg
-        puts "Welcome to Alaw's Gin! Choose an drink by entering the item number or exit to receive your final bill and exit."
+        puts "Welcome to Alaw's Gin! Choose a drink by entering the item number or enter exit to receive your final bill :)"
     end
 
     def menu
@@ -28,7 +28,7 @@ class GuestOrder
     end
 #get users choice of quantity, make input to be an integer
     def get_quantity
-        puts "How many would you like to add to your order?"
+        puts "How many would you like to add to the order? Type your amount to return to the menu for more drinks! Enter exit at any time to receive your final bill."
         @quantity = gets.chomp.to_i
     end 
 #calculate the total bill when user enters exit
@@ -41,3 +41,5 @@ class GuestOrder
         calculate_final_bill
     end 
 end
+
+#ISSUE - IF YOU ENTER EXIT WHILST ON GET_QUANTITY IT GOES BACK TO THE MENU
