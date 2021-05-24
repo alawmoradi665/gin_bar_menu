@@ -1,9 +1,10 @@
 # skriv hela object och class coden här 
 
 class GuestOrder
-    attr_reader :bill 
+    attr_reader :bill, :name
 #initialize instance variable 
-    def initialize(bill)
+    def initialize(name)
+        @name = name
         @bill = 0
     end
     def welcome_msg
