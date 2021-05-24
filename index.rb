@@ -37,18 +37,26 @@ require_relative "gin_bar_menu.rb"
 @guest = GuestOrder.new("") 
 
 # call the welcome_msg and menu methods
-# guest.welcome_msg
+guest.welcome_msg
 
-# guest.menu 
+guest.menu 
 
 # create a flag for the loop to tell the program what to do when flag is true or false
-
 ordering = true
 
 # create a loop for ordering
 while ordering
-
+    guest.menu
+# get user input, make it an integer
+    guest_input = gets.chomp.to_i
+    case guest_input
+    when 1,2,3,4
+        guest.place_order(guest_input)
+    when 0
+        ordering = false 
+        puts "Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}"
+    else 
+        puts "Invalid choice. Type 1, 2, 3, 4 or exit"\
+    end 
 end 
-
-
 
