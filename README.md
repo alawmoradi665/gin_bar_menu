@@ -12,7 +12,11 @@ This app will be a solution to the problems with waitressing since Covid-19, min
 
 ### R6. Develop a list of feature that will be included in the application
 
+- Display ingredients of each drink
 
+- Automatically back to menu after each quantity input
+
+- Displaying correctly calculated final bill
 
 ### R7. Develop an outline of the user interaction and experience for the application 
 

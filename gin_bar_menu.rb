@@ -12,11 +12,9 @@ require 'rainbow'
 require 'ruby_figlet'
 
 using RubyFiglet
-puts RubyFiglet::Figlet.available
-
-gin = "Alaw's    Gin"
+gin = "Alaw's Gin Bar"
 gin.art!
-puts gin
+puts Rainbow(gin).magenta
 
 #create a class for guest ordering
 class GuestOrder
@@ -28,7 +26,7 @@ class GuestOrder
     end
 
     def welcome_msg
-        puts Rainbow("\nHey you! Welcome to Alaw's Gin. Find our menu below and choose one of our sensational drinks by entering the drink number. When you've finished, just enter exit to receive your final bill.").indianred
+        puts Rainbow("\nHey you! Welcome to Alaw's Gin. Find our menu below and choose one of our sensational drinks by entering the drink number. When you've finished, just enter exit to receive your final bill.").aqua
     end
 
     def menu
@@ -53,7 +51,7 @@ class GuestOrder
 
 #get users choice of quantity, make input to be an integer
     def get_quantity
-        puts Rainbow("How many would you like to add to the order? Type the amount to add and return to the menu for more drinks! Enter exit at any time to receive your final bill.").indianred
+        puts Rainbow("How many would you like to add to the order? Type the amount to add and return to the menu for more drinks! Enter exit at any time to receive your final bill.").aqua
         @quantity = gets.chomp.to_i
     end 
 

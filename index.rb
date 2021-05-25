@@ -43,7 +43,7 @@ while ordering
         guest.place_order(guest_input)
     when 0
         ordering = false 
-        puts Rainbow("Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}. See ya next time!").indianred
+        puts Rainbow("Thank you for visiting Alaw's Gin #{guest.name}, your bill is $#{guest.bill}. See ya next time!").green
     else 
         puts Rainbow("Invalid choice. Type 1, 2, 3, 4 or exit").orange
     end 
