@@ -19,8 +19,7 @@
 
 
 
-# method and loop 
-
+#create a while loop 
 
 require_relative "gin_bar_menu.rb"
 require 'rainbow'
