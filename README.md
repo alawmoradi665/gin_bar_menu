@@ -12,11 +12,14 @@ This app will be a solution to the problems with waitressing since Covid-19, min
 
 ### R6. Develop a list of feature that will be included in the application
 
-- Display ingredients of each drink
+- Displaying each drink with its ingredients and price 
+This feature is called the menu feature of the application, it provides the user with a full view of the menu where they can view four different items, the ingredients to each item together with each individual price. The menu feature is one of the main features of the application beacuse it is reaccuring after each input and is what the user uses to decide on the next step and input. The menu will be wrapped in a terminal table for user experience where the items will be displayed in a clear and separated situation. 
 
 - Automatically back to menu after each quantity input
+When the user has chosen an item from the menu that was displayed the application will display a quantity question where the user can enter any number and and the menu will automatically display again. This feature is made with a while loop that executes the action of going back to the menu only when a certain input is made. In this case it will be an integer. A feature like this simplifies the usage where the user has easy access to the menu rather than having to scroll to options to find it. 
 
 - Displaying correctly calculated final bill
+The application instructions will display "enter exit to receive the final bill" so when the user enters 'exit' the application will calculate the quantity * item price and display a final bill. This feature can be used anywhere throughout the application except for when the quantity question is displayed and the application is expecting an integer as input. At the moment the application will take the user back to the menu when entering exit during the quantity method which is something that can be worked on to perfect the function of this feature. 
 
 ### R7. Develop an outline of the user interaction and experience for the application 
 
@@ -32,9 +35,13 @@ See docs folder for .pdf flow chart.
 
 ### R9. Develop an implementation plan
 
-See implementation-plan-progress folder for screenshots of my plan and progress.
+See implementation-plan-progress folder for screenshots of my plan and progress and click on link below to see my Trello board. 
+
+https://trello.com/invite/b/RHjNoQuL/c1b8952b85a1aadaa7c55c767aca64c7/gin-bar-menu-application
+
 
 ### R10. Design help documentation which includes a set of instructions which accurately describe how to install and use the application 
+
 
 
 ### Reference sources

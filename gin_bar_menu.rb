@@ -34,7 +34,6 @@ class GuestOrder
     #    rows = [[1, "Gin Lane Martini - London Dry Gin, Lavender Bitters, Grapefruit Bitters & Tonic"], [2, "Italian Flip - Gin, Campari, Antica Formula, Shaken Well and Ice Block"], [3, "Lightbulb Moment - Tanqueray London Dry Gin, Fresh Mint, Lemon and Peach, Blue Curacao, Rose Essence, Charged with Procecco"], [4, "South Side - Gin, Fresh Pressed Lemon Juice, Fresh Pressed Mint"]]
     #    table = Terminal::Table.new :rows => rows
     #    puts table 
-
         @drink_menu = {"\n1. Gin Lane Martini - London Dry Gin, Lavender Bitters, Grapefruit Bitters & Tonic" => 19, "2. Italian Flip - Gin, Campari, Antica Formula, Shaken Well and Ice Block" => 17, "3. Lightbulb Moment - Tanqueray London Dry Gin, Fresh Mint, Lemon and Peach, Blue Curacao, Rose Essence, Charged with Procecco" => 21, "4. South Side - Gin, Fresh Pressed Lemon Juice, Fresh Pressed Mint" => 19}
 #update the menu list (containing item number and price) 
         @drink_list = {1 => 19, 2 => 17, 3 => 21, 4 => 19}
