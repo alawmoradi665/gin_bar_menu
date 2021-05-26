@@ -42,7 +42,19 @@ https://trello.com/invite/b/RHjNoQuL/c1b8952b85a1aadaa7c55c767aca64c7/gin-bar-me
 
 ### R10. Design help documentation which includes a set of instructions which accurately describe how to install and use the application 
 
+#### Installation 
 
+Installation of the application:
+
+Go to dropdown button called "Code" in GitHub and click "Download Zip to download all the code for the application.
+
+Installation for Rainbow:
+
+Enter "gem install rainbow" in your terminal.
+
+Installation for Terminal Table:
+
+Enter "gem install terminal-table" in your terminal.
 
 ### Reference sources
 

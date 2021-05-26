@@ -4,7 +4,7 @@
 # 1. display menu and welcome message with directions (choose a drink or enter exit)
 # 2. get user input
 #     1. when user input a number 1,2,3,4 , display quantity question together with instructions
-#     3. if user input is wrong, use else statement to say "invalid entry" etc and go back to menu 
+#     2. if user input is wrong, use else statement to say "invalid entry" etc and go back to menu 
 # 3. when input is exit, display exit message and final bill  
 
 require 'terminal-table'
@@ -66,8 +66,3 @@ class GuestOrder
         calculate_final_bill
     end 
 end
-
-#ISSUE - IF YOU ENTER EXIT WHILST ON GET_QUANTITY IT GOES BACK TO THE MENU
-
-# REFLECTING - I changed my initial idea to have drink names with the price and "choose drink to see ingredients" beacuse i don't know how to do so whilst making the program adding the price of all drinks in the end. Went the easier way.
-# - added instructions on how to exit in the get_quantity section too because the welcome msg only appears once, being realisting people at a bar will be on this menu for a while and by the time they want their final bill, they might not remember what the welcome msg said. so this keeps them informed the whole time. 
