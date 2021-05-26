@@ -13,7 +13,7 @@ This app will be a solution to the problems with waitressing since Covid-19, min
 ### R6. Develop a list of feature that will be included in the application
 
 - Displaying each drink with its ingredients and price 
-This feature is called the menu feature of the application, it provides the user with a full view of the menu where they can view four different items, the ingredients to each item together with each individual price. The menu feature is one of the main features of the application beacuse it is reaccuring after each input and is what the user uses to decide on the next step and input. The menu will be wrapped in a terminal table for user experience where the items will be displayed in a clear and separated situation. 
+This feature is called the menu feature of the application, it provides the user with a full view of the menu where they can view four different items, the ingredients to each item together with each individual price. The menu feature is one of the main features of the application beacuse it is reaccuring after each input and is what the user uses to decide on the next step and input. The menu comes with a big purple title sayin 'Alaw's Gin Bar' as a neon looking welcome sign. Each question is wrapped in colours and the exit message has its own color. 
 
 - Automatically back to menu after each quantity input
 When the user has chosen an item from the menu that was displayed the application will display a quantity question where the user can enter any number and and the menu will automatically display again. This feature is made with a while loop that executes the action of going back to the menu only when a certain input is made. In this case it will be an integer. A feature like this simplifies the usage where the user has easy access to the menu rather than having to scroll to options to find it. 
@@ -64,3 +64,5 @@ https://github.com/sickill/rainbow
 For Terminal Table Gem
 https://github.com/tj/terminal-table
 
+My source control repository:
+https://github.com/alawmoradi665/gin_bar_menu
