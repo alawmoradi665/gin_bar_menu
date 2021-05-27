@@ -11,6 +11,7 @@ require 'terminal-table'
 require 'rainbow'
 require 'ruby_figlet'
 
+
 using RubyFiglet
 gin = "Alaw's Gin Bar"
 gin.art!
